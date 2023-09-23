@@ -1,11 +1,13 @@
 
-import './App.css';
+import store from './Redux /store';
+import { Body } from './components/Body';
+import { Provider } from 'react-redux';
 
 function App() {
   return (
-    <div className="text-2xl">
-      Up and Running 
-    </div>
+    <Provider store={store} >
+   <Body/>
+   </Provider>
   );
 }
 
