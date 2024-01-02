@@ -2,6 +2,10 @@
 
 Welcome to NetG, a cutting-edge project that brings together the power of React, Tailwind CSS, Redux, and Firebase to create a seamless movie-watching experience. This application serves as a comprehensive platform for discovering and enjoying movies with a unique twist.
 
+![Screenshot 2024-01-02 221129](https://github.com/Abhi007-glitch/NetG/assets/64996545/2a8cd9eb-7302-4939-b442-39b4bd17b1df)
+
+
+
 ## Features
 
 - **User-friendly Interface**: Built with React for a smooth and responsive user experience.
@@ -17,6 +21,7 @@ Welcome to NetG, a cutting-edge project that brings together the power of React,
 2. **User Interaction**: Engage with the application effortlessly, thanks to Redux managing the application state seamlessly.
 3. **Real-time Updates**: Firebase ensures real-time updates, keeping the application dynamic and up-to-date.
 4. **Intelligent Search**: Stay tuned for the integration of ChatGPT, bringing an intelligent touch to your movie search.
+
 
 ## Upcoming Features
 
