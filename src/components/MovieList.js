@@ -1,11 +1,11 @@
 
 import MovieCard from "./MovieCard";
 
-const MovieList = ({Title,Movies}) => {
+const MovieList = (props) => {
 
-
+       const {Title,Movies}= props;
+    
         
-
         // A container with horizontal scroll feature of movies list 
         // each list would have a genre or type 
 
@@ -16,7 +16,7 @@ const MovieList = ({Title,Movies}) => {
                  <div  className="flex overflow-x-scroll ">
                         <div className="flex ">
                                 {
-                                        Movies?.map((Movie) => { return (<MovieCard key={Movie.id} poster_path={Movie?.poster_path} />) })
+                                        Movies?.map((Movie) => { return (<MovieCard key={Movie.id} id={Movie.id} poster_path={Movie?.poster_path} />) })
                                 }
                         </div>
 

@@ -27,7 +27,6 @@ const MovieRecommendationContainer = ()=>{
             <MovieList Title={"Top Rated Movies"} Movies={TopRatedList}/>
             <MovieList Title={"Popular Movies"} Movies={popularMovieList}/>
             <MovieList  Title={"UpComing Movies"} Movies={UpComingList} />
-            
                        
         </div>
           
