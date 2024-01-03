@@ -85,10 +85,7 @@ const Login = () => {
               setError(errorMessage+" "+errorCode);
             });
            };
-
-
-          
-        
+ 
 
     };
 
